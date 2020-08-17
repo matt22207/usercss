@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           ME Gmail Tweaks
+@namespace      github.com/matt22207/usercss
+@version        1.0.0
+@description    userstyle for gmail
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("mail.google.com") {
+    /* Insert code here... */
+}
+
+/* selected mail in left column */
+.aps {
+    background-color: #333 !important;
+}
