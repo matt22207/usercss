@@ -21,6 +21,7 @@
 }
 .window {
     width: 90%;
+    background-color: red;
 }
 .window-main-col {
     width: calc(100% - 200px);
