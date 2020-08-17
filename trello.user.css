@@ -1,0 +1,27 @@
+/* ==UserStyle==
+@name           ME Trello Compact
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("trello.com") {
+    /* Insert code here... */
+}
+
+.badges {
+    top: 5px;
+    right: 0px;
+    position:absolute;
+}
+.list-card-labels {
+    margin:0px;
+    height:5px;
+}
+.window {
+    width: 90%;
+}
+.window-main-col {
+    width: calc(100% - 200px);
+}
