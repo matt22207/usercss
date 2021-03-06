@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name           ME Spotify Tweaks
+@namespace      github.com/matt22207/usercss
+@version        1.0.0
+@description    userstyle for spotify
+@author         ME
+==/UserStyle== */
+
+@-moz-document domain("open.spotify.com") {
+    /* Insert code here... */
+}
+
+/* sticky "Now Playing" bar up top */
+.Root__now-playing-bar{
+    position: fixed;
+    top: 0px;
+}
+
+/* move down the rest of the page */
+.Root__top-container {
+    margin-top: 92px;
+}
