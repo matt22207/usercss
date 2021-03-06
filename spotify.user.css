@@ -7,16 +7,18 @@
 ==/UserStyle== */
 
 @-moz-document domain("open.spotify.com") {
-    /* Insert code here... */
+
+    /* sticky "Now Playing" bar up top */
+    .Root__now-playing-bar{
+        position: fixed;
+        top: 0px;
+    }
+
+    /* move down the rest of the page */
+    .Root__top-container {
+        margin-top: 92px;
+    }
+    
 }
 
-/* sticky "Now Playing" bar up top */
-.Root__now-playing-bar{
-    position: fixed;
-    top: 0px;
-}
 
-/* move down the rest of the page */
-.Root__top-container {
-    margin-top: 92px;
-}
